@@ -4,6 +4,12 @@
     padding: 0;
     font-family:'Open Sans', sans-serif;}
 
+    clearfi::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+
 /* common rules */
 
 header{
@@ -35,7 +41,7 @@ a{
 
 
 .sezione1{
-    background-image: url(./img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 27rem;
     color: whitesmoke;
@@ -49,12 +55,11 @@ h2{
     text-align: center;
     padding: 87px;
 }
-    
     .download{
         width: 70%;
     margin:20px auto;
-text-align: center;
-font-weight: 600;
+    text-align: center;
+    font-weight: 600;
 }
 
     .discord{ background-color: rgba(28, 27, 41, 1);
@@ -71,6 +76,7 @@ font-weight: 600;
        height: 27rem;
     width: 100vw;
     display: inline-block;
+    
     }
 
 .img_rana{
@@ -87,7 +93,7 @@ position: relative;
     display:inline-block;
     text-align:; */
 
-.left_textdestra{
+.text_right{
     float: left;
     position: relative;
     left: 296px;
@@ -104,10 +110,17 @@ position: relative;
 }
 
 .sezione3{
-    background-color: lightgray;
+    background-color: rgba(246, 246, 246, 1);
+    height: 27rem;
+    width: 100vw;
+    display: inline-block;
 }
 
-.text_rightsinistra{
+.contenuto_sezione3{
+    width: 70% auto;
+    margin: 0 15%;
+}
+.text_left{
     float: left;
     width: 40%;
 }
