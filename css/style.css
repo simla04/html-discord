@@ -4,7 +4,7 @@
     padding: 0;
     font-family:'Open Sans', sans-serif;}
 
-    clearfi::after{
+    .clearfix::after{
         display: table;
         content: "";
         clear: both;
@@ -73,25 +73,23 @@ h2{
 /* /sezione1_ */
 
     .sezione2{
-       height: 27rem;
+       height: 30rem;
     width: 100vw;
     display: inline-block;
-    
     }
-
-.img_rana{
+.contenuto_sezione2{
+    width: 70%;
+    margin:0 15%;
+}
+.img_chat{
      width:50% ;
     float:left;
 margin-left: 10px;
-position: relative;
+/* position: relative;
     left: 400px;
-    top: 52px;
+    top: 52px; */
 }
-/* 
-.left_text{
-    margin-left: 80px;
-    display:inline-block;
-    text-align:; */
+
 
 .text_right{
     float: left;
@@ -127,5 +125,61 @@ position: relative;
 
 .sezione3> img{
     float: left;
-
+    margin-right: 2rem;
 }
+/* /sezione3 */
+
+
+
+.left_text h3{
+    margin-bottom:1rem;
+    font-weight: bolder;
+}
+
+.sezione4{
+    background-color: rgba(246, 246, 246, 1);
+    height: 27rem;
+    width: 100vw;
+    display: inline-block;
+}
+
+.contenuto_sezione4{
+    width: 70% auto;
+    margin: 0 15%;
+}
+.text_left{
+    float: left;
+    width: 30%;
+}
+
+.contenuto_sezione4> .img{
+    float: left;
+    width:60% ;
+}
+/* sezione4 */
+
+
+
+.sezione5{
+    background-color:  rgba(246, 246, 246, 1);
+    width: 100vw;
+    height: 44rem;
+    display: block;
+}
+.contenuto_sezione5{ 
+    width: 70%; 
+    margin: 0 15%;
+}
+.text_centered h1{
+    width: 100%;
+    float:left;
+}
+.text_centered p{
+    width: 100%;
+float: left;
+}
+.text_centerd img{
+    float:left;
+    width: 100%;
+}
+/* /sezione5 */
